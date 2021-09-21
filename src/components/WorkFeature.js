@@ -2,9 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import bg from "../assets/bg3.jpg";
 
-import Tilt from "react-tilt";
-//import WorkText from "./WorkText";
-
 import { Timeline } from '@mui/lab';
 import { TimelineItem } from '@mui/lab';
 import { TimelineSeparator } from '@mui/lab';

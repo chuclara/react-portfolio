@@ -1,6 +1,4 @@
 import React from 'react'
-import styled from "styled-components";
-import bg from "./assets/bg.jpg";
 import WorkFeature from "./components/WorkFeature";
 
 
