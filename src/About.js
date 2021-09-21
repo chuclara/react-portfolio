@@ -1,13 +1,12 @@
 import React from 'react'
+import HeaderBar from "./components/HeaderBar";
 import AboutFeature from "./components/AboutFeature";
-//import HeaderBar from "./components/HeaderBar";
-
 
 function About(){
 	return(
 		<div>
-
-		<AboutFeature />
+            <HeaderBar />
+            <AboutFeature />
 		</div>
 	)
 }

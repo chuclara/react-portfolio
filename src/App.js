@@ -9,7 +9,7 @@ class App extends React.Component {
   render() {
       return (
         <div className="App">
-          <div>
+          {/* <div>
             <nav>
               <ul id="navigation">
                 <li>
@@ -23,7 +23,7 @@ class App extends React.Component {
                 </li>
               </ul>
             </nav>
-          </div>
+          </div> */}
             <Switch>
             <Route exact path="/">
               <Home />

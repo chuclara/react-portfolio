@@ -1,12 +1,13 @@
 import React from 'react'
+import HeaderBar from "./components/HeaderBar";
 import WorkFeature from "./components/WorkFeature";
 
 
 function Work(){
 	return(
 		<div>
-
-		<WorkFeature />
+			<HeaderBar />
+			<WorkFeature />
 		</div>
 	)
 }
