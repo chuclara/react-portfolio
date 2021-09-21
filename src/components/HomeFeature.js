@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components";
 import image from "../assets/homefeature.png";
 import bg from "../assets/bg.jpg";
-//import HomeFeatText from "./HomeFeatText";
+import HomeFeatText from "./HomeFeatText";
 import Tilt from "react-tilt";
 
 const HomeFeature = () => {
@@ -11,7 +11,7 @@ const HomeFeature = () => {
       <Wrapper>
         <InnerWrapper>
           <Left>
-
+              <HomeFeatText />
           </Left>
           <TiltWrapper options={{ max: 25 }}>
            <Img src={image} alt="@gouthamgtronics" />
