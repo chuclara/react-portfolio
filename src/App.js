@@ -1,12 +1,42 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import { Route, Switch, Link } from "react-router-dom";
+import About from './About';
+import Work from './Work';
+import Home from './Home';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>hi</h1>
-    </div>
-  );
-}
-
+class App extends React.Component {
+  render() {
+      return (
+        <div className="App">
+          {/* <div>
+            <nav>
+              <ul id="navigation">
+                <li>
+                <Link to="/">Home</Link>
+                </li>
+                <li>
+                <Link to="/about">About</Link>
+                </li>
+                <li>
+                <Link to="/work">Work</Link>
+                </li>
+              </ul>
+            </nav>
+          </div> */}
+            <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/work">
+              <Work />
+            </Route>
+          </Switch>
+          </div>
+            );
+  }
+};
 export default App;
