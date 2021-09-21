@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 
 import { Link, withRouter, Route } from "react-router-dom";
+import HomeButtons from "./HomeButtons";
 
-//import NavBar from "../NavBar";
 const HomeFeatText = () => {
   return (
     <Container>
@@ -12,7 +12,7 @@ const HomeFeatText = () => {
       <h1>Play around with</h1>
       <h1>this site to learn</h1>
       <h1>more about me.</h1>
-
+      <HomeButtons />
     </Container>
   );
 };
