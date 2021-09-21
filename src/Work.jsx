@@ -1,23 +1,16 @@
+import './App.css';
 import React from 'react';
-
-const divStyle = {
-    color:'white'
-};
+import WorkFeature from "./components/WorkFeature";
 
 class Work extends React.Component {
-    
     render() {
         return (
-            <div style={divStyle}>
-                <h2>Work Page</h2>
-                <main>
-                    <p>This section contains information about...</p>
-                </main>
+            <div className="App">
+		        <WorkFeature />
             </div>
-        )
+        );
     }
+
 }
-
-
 
 export default Work;

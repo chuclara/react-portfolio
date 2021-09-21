@@ -2,8 +2,8 @@ import './App.css';
 import React from 'react';
 import { Route, Switch, Link } from "react-router-dom";
 import About from './About';
-import Home from './Home';
 import Work from './Work';
+import Home from './Home';
 
 class App extends React.Component {
   render() {
@@ -13,7 +13,7 @@ class App extends React.Component {
             <nav>
               <ul id="navigation">
                 <li>
-                  <Link to="/">Home</Link>
+                <Link to="/">Home</Link>
                 </li>
                 <li>
                 <Link to="/about">About</Link>
@@ -31,10 +31,12 @@ class App extends React.Component {
             <Route path="/about">
               <About />
             </Route>
+            <Route path="/work">
+              <Work />
+            </Route>
           </Switch>
           </div>
             );
   }
-}
-
+};
 export default App;
